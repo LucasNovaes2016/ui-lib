@@ -1,8 +1,8 @@
 export enum ButtonColorClasses {
-  primary = 'bg-purple-600 hover:bg-purple-800 text-white border border-transparent',
-  secondary = 'bg-white hover:bg-purple-50 text-gray-600 border border-gray-300 shadow-sm',
+  primary = 'bg-violet-600 hover:bg-violet-800 text-white border border-transparent',
+  secondary = 'bg-white hover:bg-violet-50 text-gray-600 border border-gray-300 shadow-sm',
   danger = 'bg-red-600 hover:bg-red-800 text-white border border-transparent',
-  positiveghost = 'bg-transparent hover:bg-purple-50 text-gray-600 transition-colors duration-300 focus:ring-offset-0',
+  positiveghost = 'bg-transparent hover:bg-violet-50 text-gray-600 transition-colors duration-300 focus:ring-offset-0',
   negativeghost = 'bg-transparent hover:bg-white text-white hover:text-gray-800 transition-colors duration-300 focus:ring-offset-0',
 }
 
@@ -22,6 +22,6 @@ export enum ButtonIconColorClasses {
 }
 
 export enum ButtonValidClasses {
-  true = 'focus:ring-purple-500',
+  true = 'focus:ring-violet-500',
   false = 'focus:ring-red-500',
 }

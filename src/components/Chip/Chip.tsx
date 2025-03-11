@@ -53,7 +53,7 @@ export const Chip = ({
         ? ChipBackgroundColorClasses[color]
         : ChipBorderColorClasses[color],
       hasRightIcon &&
-        'border border-purple-200 focus-within:ring-1 focus-within:ring-offset-2 focus-within:ring-purple-500',
+        'border border-violet-200 focus-within:ring-1 focus-within:ring-offset-2 focus-within:ring-violet-500',
       disabled && 'opacity-40',
     ],
     className
