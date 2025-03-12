@@ -46,8 +46,8 @@ export const Banner = ({
 }: BannerProps) => {
   const BannerIcon = cloneElement(icon, {
     className: clsx('size-4', {
-      'text-purple-500': color === 'gray',
-      'text-yellow-500': color === 'yellow',
+      'text-violet-500': color === 'gray',
+      'text-amber-500': color === 'yellow',
       'text-green-500': color === 'green',
       'text-red-500': color === 'red',
     }),
