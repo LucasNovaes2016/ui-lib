@@ -1,0 +1,49 @@
+thead tr {
+    border-bottom: 1px solid #e5e7eb;
+    }
+    
+    tbody tr {
+      border-bottom: 1px solid #f3f4f6;
+    }
+    
+    tbody tr.has-expanded-row {
+      border-bottom: none;
+    }
+    
+    tbody tr.is-expanded {
+      border-bottom: 1px solid #ddd6fe;
+    }
+    
+    tr th:first-child > div {
+      padding-left: 16px;
+      padding-right: 24px;
+    }
+    
+    tr th:last-child > div {
+       padding-left: 24px;
+       padding-right: 16px;
+    }
+    
+    tr th:not(:first-child):not(:last-child) > div {
+     padding-left: 24px;
+     padding-right: 24px;
+    }
+    
+    tr td:first-child {
+     padding-left: 16px;
+     padding-right: 24px;
+    }
+    
+    tr td:last-child {
+     padding-left: 24px;
+     padding-right: 16px;
+    }
+    
+    tr td:not(:first-child):not(:last-child) {
+     padding-left: 24px;
+     padding-right: 24px;
+    }
+    
+    .expandable-row td {
+      padding: 16px !important;
+    }
