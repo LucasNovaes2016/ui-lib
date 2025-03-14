@@ -8,7 +8,7 @@ export type ModalLoadingProps = {
 
 export const ModalLoading = ({ title, description }: ModalLoadingProps) => (
   <div className="flex flex-col gap-y-6 items-center">
-    <div className="rounded-full flex justify-center items-center bg-purple-100 size-12">
+    <div className="rounded-full flex justify-center items-center bg-violet-100 size-12">
       <RiLoaderLineIcon className="text-gray-800 size-10 animate-slow-spin" />
     </div>
     <div className="flex flex-col gap-y-2 items-center">

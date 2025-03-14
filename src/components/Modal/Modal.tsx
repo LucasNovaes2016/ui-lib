@@ -65,7 +65,7 @@ export const Modal = ({
                 {showCloseButton && (
                   <button
                     onClick={onClose}
-                    className="absolute right-4 top-4 rounded  hover:bg-purple-50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-purple-500"
+                    className="absolute right-4 top-4 rounded  hover:bg-violet-50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-violet-500"
                   >
                     <RiCloseLineIcon className="size-6 text-gray-700" />
                   </button>

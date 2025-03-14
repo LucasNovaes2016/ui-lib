@@ -44,7 +44,7 @@ export const ModalContent = ({
             className={clsx(
               'size-5 rounded-full flex-shrink-0 flex items-center justify-center',
               {
-                'bg-purple-50': severity === 'info',
+                'bg-violet-50': severity === 'info',
                 'bg-red-100': severity === 'danger',
               }
             )}
