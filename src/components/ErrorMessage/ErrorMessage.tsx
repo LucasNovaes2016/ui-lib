@@ -1,6 +1,6 @@
 export type ErrorMessageProps = {
   children: string;
-  id: HTMLParagraphElement['id'];
+  id?: HTMLParagraphElement['id'];
 };
 
 export const ErrorMessage = ({ children, id }: ErrorMessageProps) => (
