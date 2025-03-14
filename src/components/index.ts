@@ -4,6 +4,7 @@ export * from './Button';
 export * from './CheckboxGroup';
 export * from './Chip';
 export * from './Modal';
+export * from './RadioGroup';
 export * from './Switch';
 export * from './Table';
 export * from './TooltipContainer';
