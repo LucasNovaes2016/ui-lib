@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, cloneElement, forwardRef, JSX } from 'react';
-import { RiLoader4Fill as RiLoader4FillIcon } from 'react-icons/ri';
+import { RiLoader4Fill } from 'react-icons/ri';
 import clsx from 'clsx';
 
 import {
@@ -91,7 +91,7 @@ export const Button = forwardRef(
       >
         {disabled && showDisabledSpinner && (
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pb-0.5">
-            <RiLoader4FillIcon
+            <RiLoader4Fill
               className={clsx(
                 'size-4 animate-spin',
                 ButtonIconColorClasses[color]

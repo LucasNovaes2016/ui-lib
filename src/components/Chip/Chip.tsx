@@ -1,8 +1,8 @@
 import {
-  RiAddFill as RiAddFillIcon,
-  RiCheckboxBlankCircleFill as RiCheckboxBlankCircleFillIcon,
-  RiCloseLine as RiCloseLineIcon,
-  RiLoader4Line as RiLoader4LineIcon,
+  RiAddFill,
+  RiCheckboxBlankCircleFill,
+  RiCloseLine,
+  RiLoader4Line,
 } from 'react-icons/ri';
 
 import { ReactNode } from 'react';
@@ -62,13 +62,13 @@ export const Chip = ({
   return (
     <div className={styles}>
       {isStatus && (
-        <RiCheckboxBlankCircleFillIcon
+        <RiCheckboxBlankCircleFill
           className={clsx('size-2', ChipTextPrefixColorClasses[color])}
         />
       )}
       {children}
       {isLoading ? (
-        <RiLoader4LineIcon
+        <RiLoader4Line
           className={clsx(
             'size-4 animate-spin flex',
             ChipTextColorClasses[color]
@@ -81,7 +81,7 @@ export const Chip = ({
           disabled={disabled}
           type="button"
         >
-          <RiCloseLineIcon
+          <RiCloseLine
             className={clsx('size-4', ChipTextColorClasses[color])}
           />
         </button>
@@ -92,9 +92,7 @@ export const Chip = ({
           disabled={disabled}
           type="button"
         >
-          <RiAddFillIcon
-            className={clsx('size-4', ChipTextColorClasses[color])}
-          />
+          <RiAddFill className={clsx('size-4', ChipTextColorClasses[color])} />
         </button>
       ) : null}
     </div>

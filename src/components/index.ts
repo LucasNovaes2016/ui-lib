@@ -10,4 +10,5 @@ export * from './RadioGroup';
 export * from './SelectGroup';
 export * from './Switch';
 export * from './Table';
+export * from './TextArea';
 export * from './TooltipContainer';

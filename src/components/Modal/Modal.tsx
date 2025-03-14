@@ -5,7 +5,7 @@ import {
   TransitionChild,
 } from '@headlessui/react';
 import clsx from 'clsx';
-import { RiCloseLine as RiCloseLineIcon } from 'react-icons/ri';
+import { RiCloseLine } from 'react-icons/ri';
 import { Fragment, ReactNode } from 'react';
 import { ModalSize } from './types';
 import { ModalSizeClasses } from './constants';
@@ -67,7 +67,7 @@ export const Modal = ({
                     onClick={onClose}
                     className="absolute right-4 top-4 rounded  hover:bg-violet-50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-violet-500"
                   >
-                    <RiCloseLineIcon className="size-6 text-gray-700" />
+                    <RiCloseLine className="size-6 text-gray-700" />
                   </button>
                 )}
                 {children}

@@ -1,6 +1,6 @@
 import { RadioGroup } from '@headlessui/react';
 import clsx from 'clsx';
-import { RiForbid2Line as RiForbid2LineIcon } from 'react-icons/ri';
+import { RiForbid2Line } from 'react-icons/ri';
 import {
   getRadioActiveClasses,
   getRadioLabelAndValueGapClasses,
@@ -42,7 +42,7 @@ export const Radio = ({ id, label, size = 'sm', value }: RadioProps) => (
             )}
           />
           {disabled && (
-            <RiForbid2LineIcon
+            <RiForbid2Line
               className={clsx('text-red-700 absolute h-[14px] w-[14px]', [
                 RadioIconSizeClasses[size],
               ])}

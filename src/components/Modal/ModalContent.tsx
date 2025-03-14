@@ -1,8 +1,5 @@
 import { cloneElement, ReactNode, JSX } from 'react';
-import {
-  RiInformationFill as RiInformationFillIcon,
-  RiAlertFill as RiAlertFillIcon,
-} from 'react-icons/ri';
+import { RiInformationFill, RiAlertFill } from 'react-icons/ri';
 import clsx from 'clsx';
 import { DialogTitle, Description } from '@headlessui/react';
 import { ModalContentSeverity } from './types';
@@ -23,8 +20,8 @@ export const ModalContent = ({
   children,
 }: ModalContentProps) => {
   const severityToIcon = {
-    info: <RiInformationFillIcon />,
-    danger: <RiAlertFillIcon />,
+    info: <RiInformationFill />,
+    danger: <RiAlertFill />,
   };
 
   const icon = titleIcon || severityToIcon[severity];

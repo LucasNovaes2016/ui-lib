@@ -1,9 +1,4 @@
-import {
-  RiQuestionLine as RiQuestionLineIcon,
-  RiArrowDownSLine as RiArrowDownSLineIcon,
-  RiLoaderFill as RiLoaderFillIcon,
-} from 'react-icons/ri';
-
+import { RiQuestionLine, RiArrowDownSLine, RiLoaderFill } from 'react-icons/ri';
 import { SelectHTMLAttributes, forwardRef, useRef, JSX } from 'react';
 import {
   Listbox,
@@ -12,7 +7,6 @@ import {
   Field,
   Label,
 } from '@headlessui/react';
-
 import clsx from 'clsx';
 import { SelectSizeClasses } from './constants';
 import { ErrorMessage } from '../ErrorMessage';
@@ -78,7 +72,7 @@ export const SelectGroup = forwardRef<HTMLSelectElement, SelectGroupProps>(
     const currentLabel = foundObj?.children || placeholder;
 
     const infoIcon = (
-      <RiQuestionLineIcon className="size-4 cursor-pointer text-gray-600" />
+      <RiQuestionLine className="size-4 cursor-pointer text-gray-600" />
     );
 
     const buttonStyles = clsx(
@@ -137,12 +131,12 @@ export const SelectGroup = forwardRef<HTMLSelectElement, SelectGroupProps>(
                 <span className="block truncate">{currentLabel}</span>
                 <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4">
                   {isLoading ? (
-                    <RiLoaderFillIcon
+                    <RiLoaderFill
                       className="size-4 text-gray-500 animate-spin"
                       aria-hidden="true"
                     />
                   ) : (
-                    <RiArrowDownSLineIcon
+                    <RiArrowDownSLine
                       className="size-4 text-gray-500"
                       aria-hidden="true"
                     />

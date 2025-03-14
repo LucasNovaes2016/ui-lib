@@ -1,9 +1,6 @@
 import React, { ReactNode } from 'react';
 import hash from 'object-hash';
-import {
-  RiArrowDownSLine as RiArrowDownSLineIcon,
-  RiArrowUpSLine as RiArrowUpLineIcon,
-} from 'react-icons/ri';
+import { RiArrowDownSLine, RiArrowUpSLine } from 'react-icons/ri';
 import { useNavigate } from 'react-router-dom';
 import { useTable } from './useTable';
 
@@ -80,9 +77,9 @@ export const TableRow = ({
           <td className="py-4 flex justify-end">
             <button onClick={() => toggleRowExpansion(rowHash)}>
               {isRowExpanded ? (
-                <RiArrowUpLineIcon className="size-6 text-gray-500" />
+                <RiArrowUpSLine className="size-6 text-gray-500" />
               ) : (
-                <RiArrowDownSLineIcon className="size-6 text-gray-500" />
+                <RiArrowDownSLine className="size-6 text-gray-500" />
               )}
             </button>
           </td>

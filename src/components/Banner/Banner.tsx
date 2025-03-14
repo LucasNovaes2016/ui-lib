@@ -1,8 +1,5 @@
 import clsx from 'clsx';
-import {
-  RiCloseFill as RiCloseFillIcon,
-  RiInformationFill as RiInformationFillIcon,
-} from 'react-icons/ri';
+import { RiCloseFill, RiInformationFill } from 'react-icons/ri';
 import { cloneElement, ReactNode, JSX } from 'react';
 import {
   BannerActionButtonsPosition,
@@ -31,7 +28,7 @@ export type BannerProps = {
 
 export const Banner = ({
   color = 'gray',
-  icon = <RiInformationFillIcon />,
+  icon = <RiInformationFill />,
   title,
   children,
   variant = 'filled',
@@ -113,7 +110,7 @@ export const Banner = ({
         </div>
         {onClose ? (
           <button onClick={onClose} type="button">
-            <RiCloseFillIcon className="size-4 text-gray-700" />
+            <RiCloseFill className="size-4 text-gray-700" />
           </button>
         ) : null}
       </div>

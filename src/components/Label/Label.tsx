@@ -1,5 +1,5 @@
 import { LabelHTMLAttributes, JSX } from 'react';
-import { RiQuestionLine as RiQuestionLineIcon } from 'react-icons/ri';
+import { RiQuestionLine } from 'react-icons/ri';
 import clsx from 'clsx';
 import { TooltipContainer, TooltipContainerProps } from '../TooltipContainer';
 import { InputSize } from '../Input/types';
@@ -23,7 +23,7 @@ export const Label = ({
   onInfoClick,
 }: LabelProps) => {
   const infoIcon = (
-    <RiQuestionLineIcon className="size-4 cursor-pointer text-gray-600" />
+    <RiQuestionLine className="size-4 cursor-pointer text-gray-600" />
   );
 
   return (

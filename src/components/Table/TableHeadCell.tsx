@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { RiQuestionLine as RiQuestionLineIcon } from 'react-icons/ri';
+import { RiQuestionLine } from 'react-icons/ri';
 import { TableHeadCellTextAlign } from './types';
 import { TooltipContainer, TooltipContainerProps } from '../TooltipContainer';
 
@@ -30,7 +30,7 @@ export const TableHeadCell = ({
           tooltipClassName={tooltipClassName}
         >
           <span>
-            <RiQuestionLineIcon className="size-4 cursor-pointer text-gray-500" />
+            <RiQuestionLine className="size-4 cursor-pointer text-gray-500" />
           </span>
         </TooltipContainer>
       ) : null}

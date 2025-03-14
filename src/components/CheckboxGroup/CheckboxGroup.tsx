@@ -1,10 +1,7 @@
 import clsx from 'clsx';
 import { Checkbox, Description, Field, Label } from '@headlessui/react';
 
-import {
-  RiCheckFill as RiCheckFillIcon,
-  RiForbid2Line as RiForbid2LineIcon,
-} from 'react-icons/ri';
+import { RiCheckFill, RiForbid2Line } from 'react-icons/ri';
 import { forwardRef, ReactNode } from 'react';
 import {
   CheckboxGroupIconSizeClasses,
@@ -66,7 +63,7 @@ export const CheckboxGroup = forwardRef<HTMLButtonElement, CheckboxGroupProps>(
             )}
           >
             {checked && (
-              <RiCheckFillIcon
+              <RiCheckFill
                 className={clsx(
                   'text-white',
                   CheckboxGroupIconSizeClasses[size]
@@ -75,7 +72,7 @@ export const CheckboxGroup = forwardRef<HTMLButtonElement, CheckboxGroupProps>(
             )}
           </Checkbox>
           {disabled && (
-            <RiForbid2LineIcon
+            <RiForbid2Line
               className={clsx(
                 'text-red-700 absolute -mt-[3px] ml-[9px]',
                 CheckboxGroupIconSizeClasses[size]

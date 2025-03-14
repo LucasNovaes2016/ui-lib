@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 
 import { Label, RadioGroup as HeadlessRadioGroup } from '@headlessui/react';
-import { RiQuestionLine as RiQuestionLineIcon } from 'react-icons/ri';
+import { RiQuestionLine } from 'react-icons/ri';
 import { ErrorMessage } from '../ErrorMessage';
 import { TooltipContainer, TooltipContainerProps } from '../TooltipContainer';
 
@@ -60,7 +60,7 @@ export const RadioGroup = ({
                   onClick={onInfoClick}
                   type="button"
                 >
-                  <RiQuestionLineIcon className="size-4 cursor-pointer text-gray-600" />
+                  <RiQuestionLine className="size-4 cursor-pointer text-gray-600" />
                 </button>
               </TooltipContainer>
             ) : null}
