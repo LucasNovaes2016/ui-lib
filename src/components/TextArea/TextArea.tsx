@@ -21,7 +21,7 @@ export const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(
     ref
   ) => {
     const className = clsx(
-      'shadow-sm block w-full rounded-md focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:border-gray-300 border-gray-300 text-gray-600',
+      'shadow-sm block w-full rounded-md focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:border-gray-300 border-gray-300 text-gray-600',
       readOnly && 'bg-gray-50',
       error && 'border-red-600 focus:border-red-600'
     );

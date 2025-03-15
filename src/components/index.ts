@@ -3,6 +3,7 @@ export * from './Banner';
 export * from './Button';
 export * from './CheckboxGroup';
 export * from './Chip';
+export * from './EmptyState';
 export * from './Input';
 export * from './InputGroup';
 export * from './Modal';
