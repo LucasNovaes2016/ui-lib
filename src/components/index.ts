@@ -9,6 +9,7 @@ export * from './InputGroup';
 export * from './Modal';
 export * from './RadioGroup';
 export * from './SelectGroup';
+export * from './SlideOver';
 export * from './Switch';
 export * from './Table';
 export * from './TextArea';
