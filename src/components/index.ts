@@ -13,5 +13,6 @@ export * from './SelectGroup';
 export * from './SlideOver';
 export * from './Switch';
 export * from './Table';
+export * from './TabList';
 export * from './TextArea';
 export * from './TooltipContainer';

@@ -71,11 +71,11 @@ export const ButtonWithActionsDropdown = ({
         <>
           <MenuButton
             className={clsx(
-              'rounded-r border-l shadow-sm h-full focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-purple-500',
+              'rounded-r border-l shadow-sm h-full focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-violet-500',
               [
                 ButtonColorClasses[color],
                 ButtonSizeClasses[`only-icon-${size}`],
-                color === 'primary' && 'border-l-purple-200',
+                color === 'primary' && 'border-l-violet-200',
                 disabled && 'opacity-40',
               ]
             )}
@@ -110,7 +110,7 @@ export const ButtonWithActionsDropdown = ({
                     onClick={onClick}
                     onMouseEnter={() => setHoveredItemHash(actionHash)}
                     onMouseLeave={() => setHoveredItemHash(null)}
-                    className="flex justify-between items-center gap-x-2 px-4 py-2 hover:bg-purple-50 data-[focus]:bg-purple-50 w-full"
+                    className="flex justify-between items-center gap-x-2 px-4 py-2 hover:bg-violet-50 data-[focus]:bg-violet-50 w-full"
                   >
                     <div className="flex gap-x-2 items-center">
                       {icon
@@ -125,7 +125,7 @@ export const ButtonWithActionsDropdown = ({
                     </div>
                     <div className="size-4">
                       {hoveredItemHash === actionHash && (
-                        <RiCheckLineIcon className="size-4 text-purple-600" />
+                        <RiCheckLineIcon className="size-4 text-violet-600" />
                       )}
                     </div>
                   </MenuItem>
