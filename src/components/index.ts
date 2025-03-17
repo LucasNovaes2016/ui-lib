@@ -5,6 +5,7 @@ export * from './ButtonWithActionsDropdown';
 export * from './CheckboxGroup';
 export * from './Chip';
 export * from './EmptyState';
+export * from './Feedback';
 export * from './Input';
 export * from './InputGroup';
 export * from './Modal';
