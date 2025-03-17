@@ -58,7 +58,7 @@ const tableData = [
 
 const expandableRowContent = (
   <div className="flex flex-col gap-y-4">
-    <h1>Conteúdo collapsável</h1>
+    <h1>Conteúdo colapsável</h1>
     <span className="text-sm text-gray-500">Informação 1</span>
     <span className="text-sm text-gray-500">Informação 2</span>
     <span className="text-sm text-gray-500">Informação 3</span>
