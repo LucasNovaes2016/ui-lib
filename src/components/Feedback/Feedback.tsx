@@ -35,7 +35,7 @@ export const Feedback = ({
         ? 'bg-white'
         : {
             'bg-emerald-50': severity === 'success',
-            'bg-yellow-50': severity === 'warning',
+            'bg-amber-50': severity === 'warning',
             'bg-blue-50': severity === 'info',
             'bg-red-50': severity === 'error',
           }
@@ -61,9 +61,9 @@ export const Feedback = ({
               <RiCheckboxCircleLine className="size-6 text-emerald-400" />
             ),
             warning: fillIcon ? (
-              <RiErrorWarningFill className="size-6 text-yellow-400" />
+              <RiErrorWarningFill className="size-6 text-amber-400" />
             ) : (
-              <RiErrorWarningLine className="size-6 text-yellow-400" />
+              <RiErrorWarningLine className="size-6 text-amber-400" />
             ),
           }[severity]
         }
@@ -76,7 +76,7 @@ export const Feedback = ({
         <div className="ml-4 flex-shrink-0 flex">
           <button
             type="button"
-            className="rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
+            className="rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500"
             onClick={() => {
               if (onClose) {
                 onClose();
