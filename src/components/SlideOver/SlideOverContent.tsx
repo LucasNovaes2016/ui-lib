@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-export interface SlideOverContentProps {
+export type SlideOverContentProps = {
   children: ReactNode;
-}
+};
 
 export const SlideOverContent = ({ children }: SlideOverContentProps) => {
   return (
