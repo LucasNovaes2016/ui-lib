@@ -8,7 +8,7 @@ import {
   TableBody,
   TableBodyCell,
   TableRow,
-} from '.';
+} from './';
 
 describe('Table', () => {
   it('renders cells content', () => {

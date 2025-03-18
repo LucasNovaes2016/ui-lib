@@ -1,12 +1,15 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { MemoryRouter } from 'react-router-dom';
 import { ConditionalBadge } from '../Badge';
-import { Table, TableProps } from './Table';
-import { TableRow } from './TableRow';
-import { TableHeadCell } from './TableHeadCell';
-import { TableBodyCell } from './TableBodyCell';
-import { TableHead } from './TableHead';
-import { TableBody } from './TableBody';
+import {
+  Table,
+  TableProps,
+  TableRow,
+  TableHeadCell,
+  TableBodyCell,
+  TableHead,
+  TableBody,
+} from './';
 
 const tableData = [
   {

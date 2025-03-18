@@ -2,10 +2,15 @@ import { Meta, StoryObj } from '@storybook/react';
 import { ReactNode } from 'react';
 import { Option, SelectGroup } from '../SelectGroup';
 import { ButtonProps } from '../Button';
-import { ModalActions, ModalActionsProps } from './ModalActions';
-import { Modal, ModalProps } from './Modal';
-import { ModalContent, ModalContentProps } from './ModalContent';
-import { ModalLoading } from './ModalLoading';
+import {
+  Modal,
+  ModalProps,
+  ModalActions,
+  ModalActionsProps,
+  ModalContent,
+  ModalContentProps,
+  ModalLoading,
+} from './';
 
 type ModalActionsAggregator = {
   secondaryActionText: string;

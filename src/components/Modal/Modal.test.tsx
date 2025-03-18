@@ -1,10 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi } from 'vitest';
 import { userEvent } from '@testing-library/user-event';
-import { Modal } from './Modal';
-import { ModalContent } from './ModalContent';
-import { ModalActions } from './ModalActions';
-import { ModalLoading } from './ModalLoading';
+import { Modal, ModalContent, ModalActions, ModalLoading } from './';
 
 const defaultProps = {
   title: 'Are you sure you want to delete this item?',

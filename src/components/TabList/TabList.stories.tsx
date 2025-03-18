@@ -7,12 +7,7 @@ import {
 
 import { Meta, StoryObj } from '@storybook/react';
 
-import {
-  TabList,
-  TabListItem,
-  TabListProps,
-  TabListProvider,
-} from '../TabList';
+import { TabList, TabListItem, TabListProps, TabListProvider } from './';
 
 export default {
   title: 'Components/TabList',

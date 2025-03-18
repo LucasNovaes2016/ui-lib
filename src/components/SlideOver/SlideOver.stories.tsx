@@ -1,8 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Button } from '../Button';
-import { SlideOver, SlideOverProps } from './SlideOver';
-import { SlideOverContent } from './SlideOverContent';
-import { SlideOverActions } from './SlideOverActions';
+import {
+  SlideOver,
+  SlideOverProps,
+  SlideOverContent,
+  SlideOverActions,
+} from './';
 
 type StorybookExclusiveProps = {
   withoutFooter: boolean;
