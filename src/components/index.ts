@@ -16,5 +16,6 @@ export * from './Switch';
 export * from './Table';
 export * from './TabList';
 export * from './TextArea';
+export * from './TextAreaGroup';
 export * from './Toast';
 export * from './TooltipContainer';
